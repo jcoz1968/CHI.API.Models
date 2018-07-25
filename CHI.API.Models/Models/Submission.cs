@@ -20,7 +20,7 @@ namespace CHI.API.Models.Models
         public int NumberOfPatients { get; set; }
         public int NumberOfRecords { get; set; }
         public string Comments { get; set; }
-        public string Payload { get; set; }
+        public string XmlPayload { get; set; }
 
 
         //[HttpPost, Route("api/upload")]
